@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 
+import './firebase/firebase';
+
 import configureStore from './store/configureStore';
 
 import 'normalize.css/normalize.css';
